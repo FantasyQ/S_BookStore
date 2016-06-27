@@ -1,6 +1,6 @@
 ## 網站 Demo
 （因存在些許跨瀏覽器問題，建議以 Chrome 或 Safari 開啟；網站為展示用，功能完成至購物車小計，無後續結帳流程。）<br>
-<a href="http://fantasyq.twomini.com/sBookstore/html_php/index.php" target="blank">http://fantasyq.twomini.com/sBookstore/html_php/index.php]</a>
+<a href="http://fantasyq.twomini.com/sBookstore/html_php/index.php" target="blank">http://fantasyq.twomini.com/sBookstore/html_php/index.php</a>
 <br>
 
 ## 這是什麼專案？
