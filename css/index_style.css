@@ -1,0 +1,243 @@
+/*body{*/
+	/*overflow: hidden;*/
+/*}*/
+.sale{
+	position: absolute;
+	/*width: 5%;*/
+	/*height: 5%;*/
+	left: 0;
+	padding: 0.5% 3%;
+	bottom: 9%;
+	/*border: 3px solid  #00f;*/
+	z-index: 30;
+	color: #fff;
+	background: rgba(0,0,0,0.8);
+	text-align: center;
+	transition: 0.5s;
+}
+.sale:hover{
+	background: rgba(150,150,150,0.8);
+	color: #000;
+}
+.sale p{
+	color: #fff;
+
+}
+
+
+
+
+
+
+
+.testtt{
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	height: 75%;
+	overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+.lightbox{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background-color:rgba(0, 0, 0, .8);
+	z-index: 1000;
+
+	right: 0;
+	bottom: 0;
+	left: 0;
+	display:none;
+}
+.lb-content{
+	position: fixed;
+	width: 50%;
+	height: 70%;
+	background-color:#fff;
+	/*border-radius:10px;*/
+	box-shadow:0 0 20px #000;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+	display:none;
+}
+
+.dmall{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	/*border: 2px solid #f00;*/
+}
+.dmall img{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.sale1{
+	position: absolute;
+	width: 30%;
+	height: 10%;
+	left: 3%;
+	/*top:3%;*/
+	/*border: 2px solid #ff0;*/
+}
+
+
+.sale2{
+	position: absolute;
+	width: 30%;
+	height: 30%;
+	top: 8%;
+	right: 10%;
+	/*border: 2px solid #0f0;*/
+}
+
+.sale3{
+	position: absolute;
+	width: 30%;
+	height: 20%;
+	bottom: 20%;
+	right: 10%;
+	/*border: 2px solid #00f;*/
+}
+
+.sale4{
+	position: absolute;
+	width: 20%;
+	height: 10%;
+	bottom: 5%;
+	right: 10%;
+	/*border: 2px solid #f00;*/
+}
+
+.saleactive1{
+	animation: s1 0.5s 0.5s linear both;
+}
+.saleactive2{
+	animation: s2 2s 1s linear both;
+}
+.saleactive3{
+	animation: s3 2s 1s linear both;
+}
+.saleactive4{
+	animation: s4 1s 1s linear both;
+}
+
+@keyframes s1{
+	0%{ top: -2000em;opacity: 0}
+	80%{ top: -1%;opacity: 0.1}
+	100%{ top: 3%;opacity: 1}
+}
+
+@keyframes s2{
+	0%{ opacity: 0}
+	100%{ opacity: 1}
+}
+@keyframes s3{
+	0%{ opacity: 0}
+	100%{ opacity: 1}
+}
+@keyframes s4{
+	0%{right: 20%; opacity: 0}
+	90%{right: 20%; opacity: 0}
+	100%{right: 10%; opacity: 1}
+}
+
+
+.home_slider{
+	position: relative;
+	/*position: absolute;*/
+	bottom: 0;
+	left: 0;
+
+	width: 100%;
+	height: 100%;
+	/*height: 75%;*/
+	/*overflow: hidden;*/
+	font-size: 0;
+	/*border: 3px solid #f00;*/
+}
+
+.home_li{
+	position: absolute;
+	/*overflow: hidden;*/
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+}
+
+.home_pic{
+	position: absolute;
+	/*overflow: hidden;*/
+	width: 70%;
+	height: 100%;
+}
+.home_li .pic01{
+	left: 0;
+
+	background-image: url(../img/place/ok1.png);
+	background-size: cover;
+}
+.home_li .pic02{
+	right: 0;
+
+	background-image: url(../img/place/8_test.jpg);
+	background-size: cover;
+}
+.home_li .pic03{
+	left: 0;
+
+	background-image: url(../img/place/1.png);
+	background-size: cover;
+}
+.home_li .pic04{
+	right: 0;
+
+	background-image: url(../img/place/3.jpg);
+	background-size: cover;
+}
+
+/*2016.01.05*/
+/*.whtie_tt{*/
+	/*display: none;*/
+/*}*/
+
+.home_text{
+	position: absolute;
+	top: 40%;
+}
+.home_text>img{
+	display: block;
+	width: 200px;
+	padding: 10px;
+}
+.home_text>img[src$="_tt.svg"]{
+	width: 270px;
+}
+
+
+.home_li .text01{
+	left: 73%;
+}
+.home_li .text02{
+	right: 73%;
+}
+.home_li .text03{
+	left: 73%;
+}
+.home_li .text04{
+	right: 73%;
+}

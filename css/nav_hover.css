@@ -1,0 +1,74 @@
+/*title hover*/
+.title_underline{
+	position: absolute;
+	top: 0;
+	left:51px;
+	/*right: 14px;*/
+	height: 30px;
+	width: 68px;
+}
+.tt_artbook{
+	right: 11px;
+}
+.tt_pen{
+	right: 11px;
+}
+
+.title_underline::before{
+	content:'';
+	position: absolute;
+	z-index: -1;
+	bottom: -2px;
+	left: 0;
+
+	width: 0px;
+	height: 2px;
+	background-color: hsla(0, 0%, 77%, 0);
+
+	transition: background-color 0s 1s,
+				width 0.3s  0.3s,
+				height 0.3s 0s;
+}
+
+ul.main_menu a:hover .title_underline::before{
+	width: 68px;
+	height: 2px;
+	background-color: hsla(0, 0%, 77%, 1.0);
+
+	transition: background-color 0s 0s,
+				width 0.3s 0s,
+				height 0.3s  0.3s;
+}
+
+.title_underline::after{
+	content:'';
+	position: absolute;
+	z-index: -1;
+	bottom: -2px;
+	right: 0;
+
+	width: 0px;
+	height: 2px;
+	background-color:  hsla(193, 19%, 45%, 0);
+
+	transition: background-color 0s 1s,
+				width 0.3s  0.3s,
+				height 0.3s 0s;
+}
+
+ul.main_menu a:active .title_underline::after{
+	width: 68px;
+	height: 2px;
+	background-color: hsla(193, 19%, 45%, 1.0);
+
+	transition: background-color 0s 0s,
+				width 0.3s 0s,
+				height 0.3s  0.3s;
+}
+
+/*icon hover*/
+
+
+
+
+

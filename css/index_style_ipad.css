@@ -1,0 +1,41 @@
+@media screen and (min-width: 768px) and (max-width: 1130px) {	
+
+	
+	.home_slider{
+		height: 100%;
+	}
+
+	.home_li{
+				/*border: 3px solid violet;*/
+	}
+	
+	.home_pic{
+		width: 100%;
+				/*border:1px solid orange;*/
+	}
+	
+	li.home_li .home_text{
+		left:60%;
+		top: 40%;
+		right: auto;
+				/*border: 5px maroon solid;*/
+	}
+	.home_text>img.black_tt{
+		display: none
+	}
+
+	/*.search_act input:focus{*/
+		/*color: white;*/
+	/*}*/
+
+	.home_text>img{
+	display: block;
+	width: 300px;
+	padding: 10px;
+	}
+	.home_text>img[src$="_tt.svg"]{
+	width: 270px;
+	}
+	
+
+}

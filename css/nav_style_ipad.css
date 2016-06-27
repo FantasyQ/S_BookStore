@@ -1,0 +1,33 @@
+@media screen and (min-width: 768px) and (max-width: 1130px) {	
+	*{
+		box-sizing:border-box;
+	}
+
+	html,body{
+		-webkit-text-size-adjust:none;
+	}
+	
+	.burger_menu{
+		display: none;
+	}
+
+	ul.main_menu{
+		right: 0;
+	}
+
+	ul.nav_member{
+		top: 95px;
+		right: 0;
+					/*border:2px solid teal;*/
+	}
+
+	.logo{
+		width: 94px;
+		overflow: hidden;
+	}
+
+	.top_bg{
+		height: 120px;
+	}
+
+}

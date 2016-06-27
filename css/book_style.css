@@ -1,0 +1,427 @@
+#book_text_all{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	/*border: 5px solid #0f0;*/
+
+}
+#box1{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	/*border: 5px solid #FF0;*/
+	overflow: hidden;
+}
+.arrowdown{
+	position: absolute;
+	width: 80%;
+	margin: auto;
+	bottom: 5%;
+	left: 0;
+	right: 0;
+	/*border: 3px solid #f00;*/
+	z-index: 500;
+}
+.arrowdown img{
+	width: 100%;
+
+}
+.book_slider{
+	position: absolute;
+	bottom: 0;
+	top: 0;
+	left: 0;
+	margin: auto;
+	width: 405%;
+	height: 80%;
+	font-size: 0;
+	/*border: 1px solid #f00;*/
+	overflow: hidden;
+	/*z-index: 5;*/
+}
+
+.arrow_right .boxxx{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 23%;
+	margin: auto;
+	border-right: 5px solid #c6c6c6;
+	border-bottom: 5px solid #c6c6c6;
+	z-index: 10;
+	width: 30px;
+	height: 30px;
+	transform: rotateZ(-45deg);
+}
+.arrow_right .boxxx:hover{
+	border-right: 5px solid #555;
+	border-bottom: 5px solid #555;
+}
+.arrow_left .boxxx{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 1%;
+	margin: auto;
+	border-left: 5px solid #c6c6c6;
+	border-top: 5px solid #c6c6c6;
+	z-index: 10;
+	width: 30px;
+	height: 30px;
+	transform: rotateZ(-45deg);
+}
+.arrow_left .boxxx:hover{
+	border-left: 5px solid #555;
+	border-top: 5px solid #555;
+}
+
+
+/*.boxxx{
+	width: 30px;
+	height: 30px;
+	transform: rotateZ(-45deg);
+}*/
+
+.book_li{
+	position: absolute;
+	/*padding:0;*/
+	display: inline-block;
+	width: 25%;
+	height: 100%;
+	/*border: 1px solid #ff0;*/
+}
+
+.book_pic{
+	position: absolute;
+	width: 25%;
+	height: 100%;
+	margin: auto;
+	top:0;
+	bottom: 0;
+	/*border: 3px solid #0f0;*/
+}
+.book_pic::before{
+	content: '';
+	display: inline-block;
+	width: 0;
+	height: 100%;
+	vertical-align: middle;
+}
+.book_li img{
+	vertical-align: middle;
+	width: 100%;
+}
+.book_li .pic01{
+	left: 16%;
+}
+
+.book_li .pic02{
+	left: 16%;
+}
+
+.book_li .pic03{
+	left: 16%;
+}
+
+.book_li .pic04{
+	left: 16%;
+}
+
+
+.text_smallcontent1{
+	position: absolute;
+	width: 45%;
+	height: 100%;
+	/*border: 5px solid #0f0;*/
+	right: 12%;
+	margin: auto;
+	top:0;
+	bottom: 0;
+	text-align: center;
+
+}
+.text_smallcontent1::before{
+	content: '';
+	display: inline-block;
+	width: 0;
+	height: 100%;
+	vertical-align: middle;
+	/*text-align: center;*/
+}
+
+
+.book_li .book_text{
+	left: 0;
+	right: 0;
+	width: 80%;
+	/*height:0%;*/
+	/*border: 3px solid #00f;*/
+	display: inline-block;
+	/*text-align: center;*/
+
+}
+
+
+.text_words01{
+	width: 100%;
+	position: relative;
+	/*border: 3px solid #f00;*/
+
+}
+.text_words01::before{
+	content: '';
+	display: block;
+
+}
+.text_words01 img{
+	vertical-align: middle;
+	width: 100%;
+}
+
+
+.text_words02{
+	width: 100%;
+	position: relative;
+	/*border: 3px solid #f00;*/
+}
+.text_words02::before{
+	content: '';
+	/*display: inline-block;*/
+	display: block;
+	/*padding-left: 69.491525423729%;*/
+	/*width: 0;*/
+	/*height: 100%;*/
+	/*vertical-align: middle;*/
+}
+.text_words02 img{
+	vertical-align: middle;
+	width: 100%;
+}
+.text_words03{
+	width: 100%;
+	position: relative;
+	/*border: 3px solid #f00;*/
+	/*margin: auto;*/
+	/*top:0;
+	bottom: 0;*/
+}
+.text_words03::before{
+	content: '';
+	/*display: inline-block;*/
+	display: block;
+	/*padding-left: 69.491525423729%;*/
+	/*width: 0;*/
+	/*height: 100%;*/
+	/*vertical-align: middle;*/
+}
+.text_words03 img{
+	vertical-align: middle;
+	width: 100%;
+}
+.text_words04{
+	width: 100%;
+	position: relative;
+	/*border: 3px solid #f00;*/
+	/*margin: auto;*/
+	/*top:0;
+	bottom: 0;*/
+}
+.text_words04::before{
+	content: '';
+	/*display: inline-block;*/
+	display: block;
+	/*padding-left: 69.491525423729%;*/
+	/*width: 0;*/
+	/*height: 100%;*/
+	/*vertical-align: middle;*/
+}
+.text_words04 img{
+	vertical-align: middle;
+	width: 100%;
+}
+
+.text_btn1{
+	position: absolute;
+	width: 20%;
+	height:20%;
+	/*border: 5px solid #ff0;*/
+	margin: auto;
+	right: 15%;
+	bottom: -6%;
+}
+.text_btn1::before{
+	content: '';
+	display: inline-block;
+	width: 0;
+	height: 100%;
+	vertical-align: bottom;
+}
+.text_btn1 img{
+	vertical-align: middle;
+	width: 100%;
+}
+
+
+
+
+
+#box2{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	/*border: 5px solid #00f;*/
+}
+
+
+
+
+
+
+
+
+ul.bookshelf{
+	position: absolute;
+	top: 20%;
+	right: 0;
+	left: 0;
+	margin: auto;
+	height: 75%;
+	width: 80%;
+
+	text-align: center;
+	font-size: 0;
+}
+
+img.mobile_product{
+	display: none
+}
+
+li.book{
+	position: relative;
+	display: inline-block;
+
+	height: 220px;
+	margin: 4% 2%;
+}
+li.book>a>img{
+	height: 100%;
+	width: auto;
+}
+
+.h_info{
+	position: absolute;
+	top: 0px;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	margin: auto;
+
+	width: 100%;
+	height: 100%;
+	background-color: hsla(0, 0%, 100%, 1);
+	text-align: center;
+	line-height: 30px;
+
+	opacity: 0;
+	transition: .3s;
+}
+
+a.moreinfo_link{
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+
+	width: 100%;
+	height: 100%;							/*border: 5px solid teal;*/
+}
+
+ul.h_text{
+	position: absolute;
+	bottom: 75px;
+	right: 0;
+	left: 0;
+
+	text-align: center;
+
+	width: 100%;							/*border:1px solid darkblue;*/
+}
+
+ul.h_text li{
+	position: relative;
+
+	width: 100%;
+	/*用inline block的話 作者會往上飄*/
+	/*display: inline-block;*/
+	vertical-align: middle;
+	text-align: middle
+}
+
+ul.h_text h3{
+	display: inline-block;
+	max-width: 120px;
+
+	font-size: 20px;
+	vertical-align: middle;
+	word-wrap: break-word;
+								/*border: 5px solid skyblue;*/
+}
+ul.h_text img{
+	display: inline-block;
+	vertical-align: middle;
+	/*用絕對定位的話 偵測不到字的長短*/
+	height: 35px;
+								/*border: 1px solid darkblue;*/
+}
+.tt_left{
+	left: 0;
+	padding-right: 5px;
+}
+.tt_right{
+	right: 0;
+	padding-left: 5px;
+}
+
+ul.h_text h5{
+	display: inline-block;
+	font-size: 14px;
+}
+.h_info p{
+	position: absolute;
+	right: 0;
+	left: 0;
+	bottom: 35px;
+
+	font-size: 20px;
+}
+
+.h_info .shopping_link{
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+
+	width: 30px;
+	height: 30px;
+
+	background-color: #c6c6c6;
+	border-radius: 50%;
+
+}
+
+.h_info .shopping_link:hover{
+	background-color: #333;
+}
+
+
+.h_info .shopping_link img{
+	height: 100%;
+}
+
+
+
+.book:hover .h_info{
+	transition: 0.3s;
+	opacity: 1;
+}

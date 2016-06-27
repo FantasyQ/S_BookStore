@@ -1,0 +1,40 @@
+@media screen and ( max-width:768px) {
+	.top_bg{
+		display: none
+	}
+	.stationary_info{
+		top: 12%;
+	}
+	.stationary_slider{
+		display: none;
+	}
+	.stationary_text{
+		width: 100%;
+		right: 0;
+		left: 0;
+		margin: auto;
+	}
+	li.sta_mobile_slider{
+		display: block;
+		text-align: center;
+		width: 100%;
+	}
+	li.sta_mobile_slider img{
+		display: inline-block;
+
+		height: 300px;
+		width: auto;
+	}
+
+	.stationary_detail h3,
+	.stationary_detail table,
+	.stationary_detail p{
+		padding: 0 5%;
+	}
+	.detail_border a{
+		margin-right:6%;
+	}
+}
+
+
+

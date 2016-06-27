@@ -1,0 +1,21 @@
+.mobile_menu:hover+.top_bg+nav+.nav_social+.home_slider,
+.mobile_menu:hover+.top_bg+nav+.nav_social+.home_slider+.map
+{
+	left:40%;
+	transition:.7s;
+}
+.mobile_menu:hover+.top_bg+nav{
+	left:40%;
+	transition: .7s;
+}
+
+nav{
+	transition: .7s;
+}
+.home_slider{
+	transition: .7s;
+}
+
+.map{
+	transition: .7s;
+}

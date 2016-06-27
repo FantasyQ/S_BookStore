@@ -1,0 +1,268 @@
+.about{
+	position: relative;
+	top: 200px;
+	width: 100%;
+	/*text-align: center;*/
+	/*border: 1px solid #f00;*/
+}
+.about_content{
+	position: relative;
+	width: 100%;
+	text-align: center;
+	overflow: hidden;
+	/*border: 3px solid #ff0;*/
+}
+.upper_text, .lower_text{
+	width: 100%;
+	padding: 20px;
+	position: relative;
+}
+.upper_text{
+	/*text-align: left;*/
+	/*left:15%;*/
+	text-align: center;
+}
+.lower_text{
+	/*text-align: right;*/
+	/*right:15%;*/
+	text-align: center;
+}
+
+.upper_text>div>div{
+	padding: 0 20px
+}
+.a_tt01,.a_pp01, .a_tt01 p, .a_tt01 img,
+.a_tt02,.a_pp02, .a_tt02 p, .a_tt02 img{
+	display: inline-block;
+	vertical-align: middle;
+}
+.a_pp01,.a_tt01,
+.a_pp02, .a_tt02{
+	width: 30%;
+	vertical-align: middle;
+	padding: 0 26px;
+}
+.a_tt01::before, .a_tt02::before{
+	content: '';
+	width: 0;
+	height: 100%;
+	vertical-align: middle;
+}
+.a_tt01 p, .a_tt02 p{
+	width: 60%;
+	font-size: 16px;
+	line-height: 200%;
+	text-align: justify;
+	vertical-align: middle;
+	padding: 0 10px;
+}
+.a_tt01 img, .a_tt02 img{
+	height: 200px;
+	padding: 0 5%;
+}
+.a_pp01 img, .a_pp02 img{
+	width: 100%;
+	height: auto;
+}
+
+
+
+.about_map{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	/*margin: 100px 0;*/
+	/*border: 3px solid #0f0;*/
+	display: inline-block;
+	margin: 150px 0 0 0;
+}
+
+.map{
+	position: relative;
+	width: 65%;
+	height: 100%;
+	left: 10%;
+	display: inline-block;
+	vertical-align: middle;
+	/*margin-right: 50px;*/
+	/*border: 5px solid #00f;*/
+}
+
+.svg1111{
+	/*position:relative;*/
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	/*right: 0;*/
+	/*left:0;*/
+	margin:auto;
+	/*border:5px solid #f00;*/
+	/*padding:0 0 10% 0;*/
+}
+
+/*.map img{
+	width: 100%;
+}*/
+
+.address{
+	/*width: 20%;*/
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+	right:-5%;
+	/*margin: 50px 20px;*/
+	/*border:5px solid #00f;*/
+}
+.address p{
+	/*display: inline-block;*/
+	text-align: left;
+	line-height: 250%;
+}
+.address p.ppll{
+	padding-left: 80px;
+}
+
+.map_btn{
+	position: absolute;
+	/*right: 0;*/
+	bottom: -65px;
+	display: block;
+	width: 105px;
+	height: 35px;
+	background-color: #fff;
+	border: 2px solid #333;
+
+	text-align: center;
+	vertical-align: middle;
+	color:#333;
+
+	margin: 10px 0;
+}
+.map_btn:hover{
+	background-color: rgba(0,0,0,1);
+	/*color: #fff;*/
+}
+/*.map_btn::before{
+	content: '';
+	width: 0;
+	height: 100%;
+	vertical-align: middle;
+}*/
+.map_btn a{
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+	width: 100%;
+	height: 100%;
+	vertical-align: middle;
+	/*border: 1px solid #f00;*/
+	/*z-index: 1;*/
+}
+
+
+.map_btn span{
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+	height: 20px;
+	font-size: 14px;
+	line-height: 20px;
+
+}
+.map_btn:hover span{
+	color: #fff;
+
+}
+
+
+
+
+
+.path {
+	stroke-dasharray: 1000;
+	stroke-dashoffset: 1000;
+}
+
+.path1{
+	animation: runtext 2s 0.5s linear forwards;
+}
+.path2{
+	animation: runtext 3s 2.5s linear forwards;
+}
+.path3{
+	animation: runtext 8s 5s linear forwards;
+}
+.path4{
+	animation: runtext 3s 6s linear forwards;
+}
+.path5{
+	animation: runtext 5s 4s linear forwards;
+}
+.path6{
+	animation: runtext 5s 3s linear forwards;
+}
+.path7{
+	animation: runtext 8s 5.8s linear forwards;
+}
+.path8{
+	animation: runtext 3s 4.7s linear forwards;
+}
+.path9{
+	animation: runtext 3s 5s linear forwards;
+}
+.path10{
+	animation: runtext 3s 5s linear forwards;
+}
+.path11{
+	animation: runtext 3s 6.3s linear forwards;
+}
+.path12{
+	animation: runtext 3s 6s linear forwards;
+}
+.path13{
+	animation: runtext 3s 6s linear forwards;
+}
+.path14{
+	animation: runtext 3s 6.5s linear forwards;
+}
+.path15{
+	animation: runtext 3s 6s linear forwards;
+}
+.path16{
+	animation: runtext 15s 5.8s linear forwards;
+}
+.path17{
+	animation: runtext 3s 6.5s linear forwards;
+}
+.path18{
+	animation: runtext 3s 6.5s linear forwards;
+}
+.path19{
+	opacity: 0;
+	animation: opa 1s 6.5s linear forwards;
+}
+/*.path20{
+	animation: runtext 3s 7.4s linear forwards;
+}*/
+/*.path21{
+	animation: runtext 3s 7.4s linear forwards;
+} */
+
+@keyframes runtext {
+	from {
+		stroke-dashoffset: 1000;
+	}
+	to {
+		stroke-dashoffset: 0;
+	}
+}
+@keyframes opa{
+	0%{opacity:0}
+	100%{opacity:0.7}
+}

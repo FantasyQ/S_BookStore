@@ -1,0 +1,51 @@
+@media screen and (min-width: 768px) and (max-width: 1130px) {
+	ul.bookshelf{
+		/*vertical-align: top;*/
+			/*border: 2px solid gray;*/
+	}
+	li.book{
+		vertical-align: top;
+		margin: 40px 2%;
+	}
+	.h_info{
+		position: relative;
+		opacity: 1;
+			/*border: 2px solid teal;*/
+	}
+	ul.h_text{
+		position: relative;
+		top:5px;
+		bottom: auto;
+			/*border: 2px solid pink;*/
+	}
+	li.h_title{
+		position: relative;
+			/*border: 2px solid salmon;*/
+	}
+
+			/*a.moreinfo_link{
+				border: 2px solid salmon;
+			}*/
+
+	div.h_info p,
+	div.h_info a.shopping_link{
+		display: none;
+	}
+	ul.h_text img{
+		height: 28px;
+	}
+	ul.h_text h3{
+		font-size: 18px;
+		line-height: 20px;
+	}
+	ul.h_text h5{
+		font-size: 14px;
+	}
+		/*a.book_cover_link{*/
+				/*border:5px solid darkblue;*/
+		/*}*/
+
+}
+
+
+

@@ -1,0 +1,40 @@
+@media screen and ( max-width:768px) {
+	.top_bg{
+		display: none
+	}
+	.book_info{
+		top: 12%;
+	}
+	.book_slider{
+		display: none;
+	}
+	.book_text{
+		width: 100%;
+		right: 0;
+		left: 0;
+		margin: auto;
+	}
+	li.book_mobile_slider{
+		display: block;
+		text-align: center;
+		width: 100%;
+	}
+	li.book_mobile_slider img{
+		display: inline-block;
+
+		height: 300px;
+		width: auto;
+	}
+
+	.book_detail h3,
+	.book_detail table,
+	.book_detail p{
+		padding: 0 5%;
+	}
+	.detail_border a{
+		margin-right:6%;
+	}
+}
+
+
+

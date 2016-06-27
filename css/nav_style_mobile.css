@@ -1,0 +1,51 @@
+@media screen and ( max-width:768px) {
+	
+	*{
+		box-sizing:border-box;
+	}
+
+	html,body{
+		-webkit-text-size-adjust:none;
+	}
+
+/*	.top_bg{
+		z-index: 998;
+		height: 85px;
+	}*/
+
+	/*nav{
+		border:none;
+		position: fixed;
+		top: 0;
+	}
+
+	
+
+	nav .logo{
+		position: fixed;
+		top: 0;
+		left:0;
+
+		width: 100%;
+	}
+	nav .logo img{
+		position: absolute;
+		right: 0;
+		left: 0;
+		margin: auto;
+	}*/
+
+	nav ul.main_menu{
+		display: none;
+	}
+
+	ul.nav_member{
+		top: 50px;
+					/*border:2px solid teal;*/
+	}
+
+
+
+
+
+}

@@ -1,0 +1,10 @@
+.search_result{
+    position: relative;
+    width: 60%;
+    margin: auto;
+    top: 150px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    border-bottom: 1px #ccc solid;
+}

@@ -1,0 +1,161 @@
+*{
+			margin: 0;
+			padding: 0;
+		}
+/*start of lable*/
+		.lable_bg{
+			position: fixed;
+			right: -300px;
+
+			width: 300px;
+			height: 100%;
+			background-color:#c6c6c6;
+			transition: .5s;
+			z-index: 1002;
+				/*border:2px solid salmon;*/
+		}
+		.lable_table{
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			right: 0;
+			left: 0;
+			margin: auto;
+			width: 100%;
+				/*border:1px solid salmon;*/
+		}
+		.lable_table table{
+			width: 100%;
+			text-align: center;
+			padding: 10px 0;
+				/*border:2px solid teal;*/
+		}
+		.lable_table td{
+			position: relative;
+			width: 100%;
+			text-align: center;
+			padding-top: 10px;
+				/*border: 2px solid blue;*/
+		}
+		.lable_table .lb_tt{
+			font-size: 24px;
+			text-align: left;
+			padding-left: 50px;
+		}
+		.lable_table .lb_nn{
+			font-size: 14px;
+			text-align: left;
+			padding-left: 50px;
+			padding-top: 20px;
+			line-height: 0px;
+		}
+		.lable_table input{
+			width: 200px;
+			height: 40px;
+			border:none;
+		}
+		.lable_table input:focus{
+			outline:none;
+		}
+		.lable_table input[type="text"], .lable_table input[type="password"]{
+			width: 160px;
+			padding: 0 20px;
+		}
+		.lable_table input[type="text"]:focus, .lable_table input[type="password"]:focus{
+			background-color:hsla(0, 0%, 100%, 0.0);
+			outline: 2px solid #fff;
+		}
+
+		.lable_table input[type='submit']{
+			color:white;
+			background-color:#555;
+		}
+		.lable_table input[type='submit']:hover{
+			color:white;
+			background-color:#333;
+		}
+		td.border_up{
+			padding:25px 0;
+		}
+		.reg .lb_tt{
+			padding-top: 10px;
+			border-top:1px solid #dbdce2;
+		}
+		.field_warning{
+			color: #d45454;
+			display: none;
+		}
+
+		.member_action_btn{
+			display: inline-block;
+			color:white;
+			background-color:#555;
+			width: 200px;
+			height: 40px;
+			border:none;
+			font-size: 14px;
+			line-height: 40px;
+		}
+		.member_action_btn:hover{
+			color:white;
+			background-color:#333;
+		}
+		.member_action_border_up{
+			padding-bottom: 15px;
+		}
+
+/*start of xx*/
+		.xx{
+			position: absolute;
+			top: 10px;
+			left: 10px;
+
+			/*background-color: #333;*/
+			border-radius:50%;
+			width: 35px;
+			height: 35px;
+		}
+		.xx span{
+			position: relative;
+			left: 40px;
+			top: 8px;
+			opacity:0;
+		}
+		.xx:hover span{
+			opacity:1;
+			font-size: 14px;
+		}
+		.xx:hover div{
+			background-color:#333;
+		}
+		.xx div{
+			position: absolute;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			left: 0;
+			margin: auto;
+
+			height: 3px;
+			width: 20px;
+			background-color: #aaa;
+		}
+		.right45{
+			transform: rotateZ(45deg);
+		}
+		.left45{
+			transform: rotateZ(-45deg);
+		}
+
+		.clickmove2{
+			transition: .5s;
+			right:0px;
+
+		}
+
+
+/*登入成功*/
+		.login_success_alert{
+			color: #444;
+			text-align: center;
+		}
