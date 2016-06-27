@@ -144,6 +144,7 @@
 
 <script>
 	$('.add_to_btn').click(function(){
+		event.preventDefault();
 		var mycart = $(this);
 
 		var p_sid = mycart.data('p_sid');

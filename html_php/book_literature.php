@@ -149,7 +149,6 @@
 </div>
 
 <script>
-
     $('.shopping_link').click(function(){
         event.preventDefault();
         var mycart = $(this);
