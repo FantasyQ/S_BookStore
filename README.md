@@ -1,5 +1,5 @@
 ## 網站 Demo
-(因存在些許跨瀏覽器問題，請使用 Chomre 開啟)<br>
+(因存在些許跨瀏覽器問題，請避免以 Firefox 開啟)<br>
 [http://fantasyq.twomini.com/sBookstore/html_php/index.php](http://fantasyq.twomini.com/sBookstore/html_php/index.php)
 <br>
 
